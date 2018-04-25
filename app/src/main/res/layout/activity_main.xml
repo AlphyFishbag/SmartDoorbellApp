@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -19,7 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Push to Speak"
-        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteX="120dp"
         tools:layout_editor_absoluteY="420dp" />
 
     <WebView
