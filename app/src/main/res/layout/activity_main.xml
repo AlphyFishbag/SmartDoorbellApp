@@ -4,7 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:maxHeight="600dp"
+    android:maxWidth="500dp"
+    android:minHeight="100dp"
+    android:minWidth="100dp"
     tools:context=".MainActivity">
+
 
     <TextView
         android:id="@+id/textView"
@@ -15,18 +20,24 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Push to Speak"
-        tools:layout_editor_absoluteX="120dp"
-        tools:layout_editor_absoluteY="420dp" />
 
     <WebView
-        android:layout_width="368dp"
-        android:layout_height="230dp"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp" />
+        android:id="@+id/webview"
+        android:layout_width="400dp"
+        android:layout_height="404dp"
+        android:layout_marginBottom="112dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+    </WebView>
+
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:text="Push to Speak"
+       />
 
 </android.support.constraint.ConstraintLayout>
