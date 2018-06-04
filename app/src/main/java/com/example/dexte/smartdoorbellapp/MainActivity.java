@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         myWebView.getSettings().setJavaScriptEnabled(true);
         myWebView.setWebChromeClient(new WebChromeClient());
         myWebView.getSettings().setPluginState(WebSettings.PluginState.ON);
-        myWebView.loadUrl("https://googl.com");
+        myWebView.loadUrl("https://stackoverflow.com/questions/49685917/no-system-resource-manager-for-module-app-in-android-studio-3-1");
 
     }
 }
